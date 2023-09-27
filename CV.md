@@ -1,4 +1,4 @@
 # Raul Hermosin
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://www.rastrolab.com/wp-content/uploads/guy-headshot-business_result.webp)
+![Cuchau](https://i.pinimg.com/736x/74/f7/7c/74f77c0410f3aa6be79bda7976e0ed8e.jpg)
 ### Email: terminaldemando@gmail.com     
 *Num tel: 665 45 98 07*
