@@ -1,3 +1,4 @@
-# 'rgb(9, 105, 218)' Raul Hermosin
+# Raul Hermosin
+![/home/raul/Documentos/Foto.png]
 ### Email: terminaldemando@gmail.com     
 *Num tel: 665 45 98 07*
