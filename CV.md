@@ -12,9 +12,9 @@ Experimentado en trabajo de supermercado, cajero y reponedor
 ## Historial Laboral
 Abril 2023 - Junio 2023
 · Cadena de supermercados
-##Formación
-2022
-Estudios nivel ESO
-2023
-Primero de SMX 
+## Formación
+2022 -
+ Estudios nivel ESO
+2023 -
+ Primero de SMX 
 
