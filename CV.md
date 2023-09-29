@@ -16,7 +16,7 @@ Abril 2023 - Junio 2023
 · Cadena de supermercados
 ## Formación
 2022 -
-*Estudios nivel ESO* /
+**Estudios nivel ESO** /
  2023 -
- *Primero de SMX* 
+ **Primero de SMX** 
 
