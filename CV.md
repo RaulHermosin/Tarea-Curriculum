@@ -1,5 +1,5 @@
 # Raul Hermosin
-![Perfil](https://i.pinimg.com/736x/74/f7/7c/74f77c0410f3aa6be79bda7976e0ed8e.jpg)
+![Perfil](https://i.pinimg.com/736x/74/f7/7c/74f77c0410f3aa6be79bda7976e0ed8e.jpg){width=20}
 # 
 *Email: terminaldemando@gmail.com*
 # 
