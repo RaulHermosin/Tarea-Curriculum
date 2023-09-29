@@ -1,0 +1,49 @@
+1. https://moodle.nigul.coop/course/modedit.php?add=assign&type=&course=82&section=3&return=0&sr=0
+
+Protocol: https
+Nombre de la computadora: moodle.nigul.coop
+Directorios: course
+Archivo: modedit.php?add=assign&type=&course=82&section=3&return=0&sr=0
+
+Absoluto
+
+2. github.com/marketplace?type=apps
+
+Protocolo: 
+Nombre de la computadora: github.com 
+Directorios: 
+Archivo: marketplace?type=apps
+
+Absoluto
+
+3. https://www.meneame.net/story/primer-vuelo-avion-hidrogeno-mas-grande-mundo
+
+Protocolo: https
+Nombre de la computadora:www.meneame.net 
+Directorios: /story/primer-vuelo-avion-hidrogeno-mas-grande-mundo
+Archivo: 
+
+Absoluto
+
+4. https://thispersondoesnotexist.com/image
+
+Protocol: https
+Nombre de la computadora: thispersondoesnotexist.com
+Directorios: /image
+Archivo:
+
+5. sftp://example.com
+
+Protocolo:sftp
+Nombre de la computadora: example.com 
+Directorios: 
+Archivo: 
+
+6. info/noticia.html?p=2
+
+Protocol:
+Nombre de la computadora: 
+Directorios:info/ 
+Archivo: noticia.html?p=2
+
+Relativa
