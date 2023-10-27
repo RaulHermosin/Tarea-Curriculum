@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<title> Presentación Raúl </title>
+<h1> Raúl Hermosín </h1>
+<img src="https://www.lavanguardia.com/files/image_948_465/files/fp/uploads/2021/09/30/6154f27965814.r_d.528-377.jpeg" width="20%">
+</head>
+
+<body>
+
+<p> Me llamo Raúl Hermosín, de 18 años y esta es mi presentación en HTML  </p> <br>
+<i> (Antes de empezar cabe recalcar que esto es solo una prueba, cualquier parecido con la realidad no se habrá hecho intencionadamente)</i> <br>
+<h3>Animal favorito</h3><br>
+<p>Mi animal favorito es el zorro, aunque compite mucho con este shiba</p><br>
+
+<img src="Doge.jpg" width="400px"><br>
+
+<a href="https://es.wikipedia.org/wiki/Doge">Por si quieres saber mas sobre el doge</a>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
