@@ -4,6 +4,7 @@
 // Obtener datos del archivo XML
 $xmlData = file_get_contents('https://catalegdades.caib.cat/resource/rjfm-vxun.xml');
 $xml = simplexml_load_string($xmlData);
+#var_dump($xml);
 
 // Extraer información relevante para los filtros
 $municipios = array_unique($xml->xpath('//Municipio'));
@@ -17,12 +18,13 @@ if ($_GET) {
     $filtroCodigoPostal = $_GET['codigo_postal'] ?? '';
     $filtroNombre = $_GET['nombre'] ?? '';
 
-    foreach ($xml->Rentacar as $rentacar) {
-        if (($filtroMunicipio == '' || $rentacar->Municipio == $filtroMunicipio) &&
-            ($filtroCodigoPostal == '' || $rentacar->CodigoPostal == $filtroCodigoPostal) &&
-            ($filtroNombre == '' || stripos(implode(',', $nombres), $filtroNombre) !== false)) {
-            $resultados[] = $rentacar;
-        }
+    foreach ($xml->rows->row as $rentacar) {
+    #    if (($filtroMunicipio == '' || $rentacar->municipi == $filtroMunicipio) &&
+     #       ($filtroCodigoPostal == '' || $rentacar->adre_a_de_l_establiment == $filtroCodigoPostal) &&
+      #      ($filtroNombre == '' || stripos(implode(',', $nombres), $filtroNombre) !== false)) {
+       #     $resultados[] = $rentacar;
+        #}
+        echo ($rentacar->ade_a_de_l_establiment);
     }
 }
 
@@ -92,6 +94,14 @@ usort($resultados, 'cmp');
 
     <div id="resultados">
         <!-- Aquí se mostrarán los resultados -->
+        <?php foreach ($resultados as $rentacar) : ?>
+            <div>
+                <p>Licencia: <?= $rentacar->Licencia ?></p>
+                <p>Nombre Comercial: <?= $rentacar->NombreComercial ?></p>
+                <p>Dirección Completa: <?= $rentacar->Direccion ?></p>
+                <p>Número de Vehículos: <?= $rentacar->NumeroVehiculos ?></p>
+            </div>
+        <?php endforeach; ?>
     </div>
 
     <table border="1">
